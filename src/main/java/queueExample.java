@@ -15,7 +15,7 @@ public class queueExample {
                 .sender()
                 .topicName(topicname)
                 .buildClient();
-        serviceBusSenderClient.sendMessage(new ServiceBusMessage("hello ASB try 2"));
+        serviceBusSenderClient.sendMessage(new ServiceBusMessage("hello ASB try 5"));
         System.out.println("message has been sent");
 
     }
