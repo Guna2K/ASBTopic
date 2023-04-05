@@ -7,11 +7,11 @@ import java.time.Duration;
 import java.util.concurrent.CountDownLatch;
 
 @Component
-public class receiveQueueExample {
+public class receiveTopicExample {
 
-    static String connectionString="Endpoint=sb://hs-cc-poc.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=tGj4bD3KtsUjkhaJOqdvspnUa+2rnxUkM+ASbBJa/qg=";
-    static String topicname="cctopic";
-    static String topicsubscription="cctopic_subscription";
+    static String connectionString=<ConnectionString>;
+    static String topicname=<topic name>;
+    static String topicsubscription=<Topic subscription name>;
     public static void main (String[] args) throws InterruptedException {
         receivemessages();
     }
